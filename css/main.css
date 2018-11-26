@@ -20,6 +20,12 @@ html {
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    margin: 0;
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
   figure {
     position: relative;
   }
@@ -34,12 +40,18 @@ html {
     padding: 20px;
     max-width: 50%;
     border-radius: 8px;
-    font-family: 'Denk One', sans-serif;
+    font-family: "Denk One", sans-serif;
   }
 
 }
 
 @media only screen and (min-width: 60em) {
+
+  html {
+    margin: 0;
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
   figure {
     background-color: #000;
@@ -55,8 +67,18 @@ html {
 
 @media only screen and (min-width: 90em) {
 
-  body {
-    background-color: orange;
+  html {
+    margin: 0;
+    font-size: 130%;
+  }
+
+  figure {
+    width: 100%;
+  }
+
+  img {
+    display: flex;
+    width: 100%;
   }
 
 }
@@ -85,6 +107,6 @@ body {
 }
 
 h2 {
-  font-family: Denk One, sans-serif;
+  font-family: "Denk One", sans-serif;
   font-size: 1.5rem;
 }
